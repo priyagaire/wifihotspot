@@ -1,8 +1,9 @@
-
+@echo off
 color fc
+title Wifi-Hotspot
 pause
 color fc
-
+echo Press any key to create and set SSID and key of your wifi network.
 rem space   
 netsh wlan set hostednetwork mode=allow ssid=WiKeyMouse key=sangam123 keyUsage=persistent
 pause
